@@ -4,6 +4,7 @@ import path from "path"
 
 // vite config for the train reservation app
 export default defineConfig({
+  base: '/Train-Reservation-System/',
   plugins: [react()],
   resolve: {
     alias: {
